@@ -21,6 +21,7 @@ const SmurfList = (props) => {
   return (
     <div className="listContainer">
       {props.smurfs.map((smurf) => {
+        console.log(smurf);
         return <Smurf smurf={smurf} />;
       })}
     </div>

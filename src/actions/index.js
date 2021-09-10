@@ -36,3 +36,11 @@ export const fetchSuccess = (data) => {
 export const fetchFail = (error) => {
   return { type: FETCH_FAIL, payload: error };
 };
+
+export const addSmurf = (data) => {
+  return { type: ADD_SMURF, payload: data };
+};
+
+export const addError = (data) => {
+  return { type: ADD_ERROR, payload: data };
+};
